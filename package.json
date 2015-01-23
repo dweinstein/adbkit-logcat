@@ -16,15 +16,10 @@
     "email": "npm@cyberagent.co.jp",
     "url": "http://www.cyberagent.co.jp/"
   },
-  "main": "./index",
+  "main": "./index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/CyberAgent/adbkit-logcat.git"
-  },
-  "scripts": {
-    "postpublish": "grunt clean",
-    "prepublish": "grunt coffee",
-    "test": "grunt test"
   },
   "dependencies": {
   },
